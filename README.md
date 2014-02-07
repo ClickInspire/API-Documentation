@@ -1,39 +1,10 @@
-# Cron API
+# Core APIs
 
-The purpose of this API is to create a BaaS for triggering API request to other APIs at specific times.
-
-## Entities
-
-*TBD*
-
-# Reclaim API
-
-The purpose of this API is to create a BaaS for applications to allow users to recover appointments.
-
-## Entities
-
-- RecoveryCampaign
-- RecoveryTrigger
-
-- RecoveryRule
-- RecoveryRuleTimeSet
-- RecoveryRuleService
-
-- PromotionSettings
-
-- Channel
-- ChannelSettings
-
-- SocialPost
-- Share
-
-- User
-
-# Scheduling API
+## Scheduling
 
 The purpose of this API is to create a BaaS for applications that rely on scheduling like abilities.
 
-## Entities
+### Entities
 
 - Availability
 - AvailabilityException
@@ -57,20 +28,55 @@ The purpose of this API is to create a BaaS for applications that rely on schedu
 - GoogleCalendar
 - GoogleBooking
 
-User
+- User
 
-# Authentication API
+## Reclaim
+
+The purpose of this API is to create a BaaS for applications to allow users to recover appointments.
+
+## Entities
+
+- RecoveryCampaign
+- RecoveryTrigger
+
+- RecoveryRule
+- RecoveryRuleTimeSet
+- RecoveryRuleService
+
+- PromotionSettings
+
+- Channel
+- ChannelSettings
+
+- SocialPost
+- Share
+
+- User
+
+## Client Management
+
+Communication and management of clients is quite different from scheduling. This API should host the chat functionality as well as any additional entities relating to a client that aren't mission critical for scheduling.
+
+### Entities
+
+*TBD*
+
+# Supporting APIs
+
+## Cron
+
+The purpose of this API is to create a BaaS for triggering API request to other APIs at specific times.
+
+### Entities
+
+*TBD*
+
+## Authentication
+
+Provide a centralized place to authenticate socially and store related information.
 
 - GoogleAuth
 - FacebookAuth
 - TwitterAuth
 
-User
-
-# Chat API
-
-The purpose of this APi is to manage client interaction.
-
-## Entities
-
-*TBD*
+- User
