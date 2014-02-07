@@ -12,8 +12,8 @@ The purpose of this API is to create a BaaS for applications to allow users to r
 
 ## Entities
 
-.RecoveryCampaign
-.RecoveryTrigger
+- RecoveryCampaign
+- RecoveryTrigger
 
 RecoveryRule
 RecoveryRuleTimeSet
