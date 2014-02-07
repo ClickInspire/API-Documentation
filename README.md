@@ -15,19 +15,19 @@ The purpose of this API is to create a BaaS for applications to allow users to r
 - RecoveryCampaign
 - RecoveryTrigger
 
-RecoveryRule
-RecoveryRuleTimeSet
-RecoveryRuleService
+- RecoveryRule
+- RecoveryRuleTimeSet
+- RecoveryRuleService
 
-PromotionSettings
+- PromotionSettings
 
-Channel
-ChannelSettings
+- Channel
+- ChannelSettings
 
-SocialPost
-Share
+- SocialPost
+- Share
 
-User
+- User
 
 # Scheduling API
 
@@ -35,38 +35,42 @@ The purpose of this API is to create a BaaS for applications that rely on schedu
 
 ## Entities
 
-Availability
-AvailabilityException
+- Availability
+- AvailabilityException
 
-Company
-Professional
-Client
-Profile
-Resource
+- Company
+- Professional
+- Client
+- Profile
+- Resource
 
-Booking
-Reminder
+- Booking
+- Reminder
 
-Industry
-Service
+- Industry
+- Service
 
-ServiceConfiguration
-ResourceType
-ResourceOption
+- ServiceConfiguration
+- ResourceType
+- ResourceOption
 
-GoogleCalendar
-GoogleBooking
+- GoogleCalendar
+- GoogleBooking
 
 User
 
 # Authentication API
 
-GoogleAuth
-FacebookAuth
-TwitterAuth
+- GoogleAuth
+- FacebookAuth
+- TwitterAuth
 
 User
 
 # Chat API
 
 The purpose of this APi is to manage client interaction.
+
+## Entities
+
+*TBD*
