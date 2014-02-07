@@ -1,10 +1,10 @@
-# Core APIs
+# Separation of responsibility
 
-## Scheduling
+### Scheduling
 
 The purpose of this API is to create a BaaS for applications that rely on scheduling like abilities.
 
-### Entities
+#### Entities
 
 - Availability
 - AvailabilityException
@@ -30,11 +30,11 @@ The purpose of this API is to create a BaaS for applications that rely on schedu
 
 - User
 
-## Reclaim
+### Reclaim
 
 The purpose of this API is to create a BaaS for applications to allow users to recover appointments.
 
-## Entities
+### Entities
 
 - RecoveryCampaign
 - RecoveryTrigger
@@ -53,25 +53,31 @@ The purpose of this API is to create a BaaS for applications to allow users to r
 
 - User
 
-## Client Management
+### Client Management
 
-Communication and management of clients is quite different from scheduling. This API should host the chat functionality as well as any additional entities relating to a client that aren't mission critical for scheduling.
+Management of client information and ratings is quite different from scheduling. This API should host as any additional entities relating to a client that aren't mission critical for scheduling. Almost like a CRM...
 
-### Entities
+#### Entities
 
 *TBD*
 
-# Supporting APIs
+### Communication
 
-## Cron
+Communication such as automatic sms vs app messaging toggle, monitoring of chat rooms for notifications to send push notifications, and email templates can be hosted here.
+
+#### Entities
+
+*TBD*
+
+### Cron
 
 The purpose of this API is to create a BaaS for triggering API request to other APIs at specific times.
 
-### Entities
+#### Entities
 
 *TBD*
 
-## Authentication
+### Authentication
 
 Provide a centralized place to authenticate socially and store related information.
 
