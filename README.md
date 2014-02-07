@@ -34,7 +34,7 @@ The purpose of this API is to create a BaaS for applications that rely on schedu
 
 The purpose of this API is to create a BaaS for applications to allow users to recover appointments.
 
-### Entities
+#### Entities
 
 - RecoveryCampaign
 - RecoveryTrigger
